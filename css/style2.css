@@ -25,6 +25,7 @@ body{
 .mail p i{
 	padding-right: 10px;
 }
+
 .social-links ul{
 	margin-bottom: 0px;
 }
@@ -254,19 +255,33 @@ hr{
 	color: #828bb2;
 	margin: 0px;
 }
-.privay li{
+.privacy li{
 	float: right;
 }
-.privay li{
+.privacy li{
 	list-style: none;
 	padding-right: 15px;
 	display: inline-block;
 }
-.privay li a{
+.privacy li a{
 	color: #828bb2;
 }
-.privay li a:hover{
+.privacy li a:hover{
 	color: #fff;
 	transition: 0.2s ease;
 	text-decoration: none;
+}
+@media (max-width: 768px){
+	.sl{
+		margin: auto;
+	}
+	.social-links{
+		text-align: center;
+	}
+	.copyright p{
+		text-align: center;
+	}
+	.privacy {
+		text-align: center;
+	}
 }
